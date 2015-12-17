@@ -1,0 +1,102 @@
+body {
+    line-height: 1.75;
+}
+
+.nav {
+    background-color: grey;
+    z-index: 1;
+}
+.nav a {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: white;
+}
+
+.nav li {
+    display: inline;
+}
+
+.jumbotron {
+    background-image:url('http://i.imgur.com/tJGW41h.jpg?1g');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    position: relative;
+    top:100px;
+}
+
+.jumbotron h1 {
+    color: #393c3d;
+    font-size: 48px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 15px;
+    color: #393c3d;
+}
+
+.learn-more {
+    background-color: white;
+}
+
+.learn-more h3 {
+    font-family: 'Shift', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.learn-more a {
+    color: blue;
+    text-decoration: none;
+}
+
+.learn-more a:hover {
+    color: red;
+}
+
+.taskbar {
+    background-color: white;
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.taskbar li {
+    display: inline;
+}
+
+.taskbar img{
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+}
+
+.logo {
+    margin: 5em;
+}
+
+body {
+    background-color: white;
+}
+
+.blog_entry img{
+    margin: 5% 0;
+}
+
+.blog_entry h3{
+    margin: 2.5%;
+}
+
+#essay-title {
+    text-align: center;
+    padding-bottom: 1em;
+}
