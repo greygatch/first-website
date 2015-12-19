@@ -30,6 +30,7 @@ body {
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 2px solid black;
 }
 
 .jumbotron .container {
@@ -51,6 +52,7 @@ body {
 .learn-more {
     background-color: white;
     text-align: center;
+    position: fixed;
 }
 
 .learn-more h3 {
