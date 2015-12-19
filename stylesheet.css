@@ -6,19 +6,19 @@ body {
 .nav {
     background-color: grey;
     z-index: 1;
-    border
+    border-bottom: 2px solid black;
 }
 .nav a {
     color: black;
     font-size: 13px;
     font-weight: bold;
-    padding: 10px;
+    margin: 10px 5px;
     text-decoration: none;
     height: 5vh;
-    border-bottom: 1px solid black;
 }
 .nav a:hover {
     color: white;
+    border-bottom: 1px solid black;
 }
 
 .nav li {
@@ -50,6 +50,7 @@ body {
 
 .learn-more {
     background-color: white;
+    text-align: center;
 }
 
 .learn-more h3 {
@@ -71,6 +72,7 @@ body {
     background-color: white;
     color: #393c3d;
     font-size: 24px;
+    text-align: center;
 }
 
 .taskbar li {
