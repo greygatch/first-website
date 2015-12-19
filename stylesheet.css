@@ -6,6 +6,7 @@ body {
 .nav {
     background-color: grey;
     z-index: 1;
+    border
 }
 .nav a {
     color: black;
@@ -13,6 +14,8 @@ body {
     font-weight: bold;
     padding: 10px;
     text-decoration: none;
+    height: 5vh;
+    border-bottom: 1px solid black;
 }
 .nav a:hover {
     color: white;
@@ -24,20 +27,19 @@ body {
 
 .jumbotron {
     background-image:url('http://i.imgur.com/tJGW41h.jpg?1g');
-    height: 600px;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .jumbotron .container {
     position: relative;
-    top:100px;
+    top: 100px;
 }
 
 .jumbotron h1 {
     color: #393c3d;
     font-size: 48px;
-    font-family: 'Shift', sans-serif;
     font-weight: bold;
 }
 
@@ -83,21 +85,4 @@ body {
 
 .logo {
     margin: 5em;
-}
-
-body {
-    background-color: white;
-}
-
-.blog_entry img{
-    margin: 5% 0;
-}
-
-.blog_entry h3{
-    margin: 2.5%;
-}
-
-#essay-title {
-    text-align: center;
-    padding-bottom: 1em;
 }
